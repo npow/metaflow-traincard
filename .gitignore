@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+*.so
+
+# Metaflow local artifacts
+metaflow_card_cache/
+metaflow.s3.*
+/tmp/traincard_*
+
+# macOS
+.DS_Store
