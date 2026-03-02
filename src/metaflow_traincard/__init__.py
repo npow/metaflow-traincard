@@ -21,7 +21,6 @@ HuggingFace::
 
 from .reporter import Reporter
 from .card import TrainCard, render_state
-from .adapters.huggingface import HFTrainCardCallback
 
 __version__ = "0.1.0"
 __all__ = [
@@ -30,3 +29,11 @@ __all__ = [
     "render_state",
     "HFTrainCardCallback",
 ]
+
+
+def __getattr__(name: str):
+    if name == "HFTrainCardCallback":
+        from .adapters.huggingface import HFTrainCardCallback
+        globals()["HFTrainCardCallback"] = HFTrainCardCallback
+        return HFTrainCardCallback
+    raise AttributeError(f"module 'metaflow_traincard' has no attribute {name!r}")
