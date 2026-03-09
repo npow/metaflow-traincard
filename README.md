@@ -3,7 +3,7 @@
 [![CI](https://github.com/npow/metaflow-traincard/actions/workflows/ci.yml/badge.svg)](https://github.com/npow/metaflow-traincard/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/metaflow-traincard)](https://pypi.org/project/metaflow-traincard/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![Docs](https://img.shields.io/badge/docs-mintlify-18a34a?style=flat-square)](https://mintlify.com/npow/metaflow-traincard)
 
 See your training run live — loss curves, GPU usage, and checkpoints — without leaving Metaflow.
 
